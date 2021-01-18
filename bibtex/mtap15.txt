@@ -1,0 +1,13 @@
+@article{pappas15b,
+year={2015},
+issn={1380-7501},
+journal={Multimedia Tools and Applications},
+doi={10.1007/s11042-013-1840-y},
+title={Combining content with user preferences for non-fiction multimedia recommendation: a study on TED lectures},
+url={http://dx.doi.org/10.1007/s11042-013-1840-y},
+publisher={Springer US},
+keywords={Content-based multimedia indexing; Recommender systems; Multimedia recommendation; TED lectures},
+author={Pappas, Nikolaos and Popescu-Belis, Andrei},
+pages={1-23},
+language={English}
+}

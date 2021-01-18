@@ -1,0 +1,12 @@
+@INPROCEEDINGS{pappas13b,
+         author = {Pappas, Nikolaos and Popescu-Belis, Andrei},
+       keywords = {Lecture Recommendation, Recommender Systems, Semantic Indexing, TED Talks},
+       projects = {Idiap, InEvent},
+          month = apr,
+          title = {Combining Content with User Preferences for TED Lecture Recommendation},
+      booktitle = {11th International Workshop on Content Based Multimedia Indexing},
+           year = {2013},
+      publisher = {IEEE},
+       location = {Veszpr{\'{e}}m, Hungary},
+            pdf = {http://publications.idiap.ch/downloads/papers/2013/Pappas_CBMI_2013.pdf}
+}

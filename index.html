@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="icon" href="images/language.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.min.css"> 
+	<link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet">
+	<link rel="stylesheet" href="css/website.css">
+	<script src="js/bootstrap.min.js" ></script> 
+	<title>Nikolaos Pappas - Academic website</title>
+	<script>
+		function comment_toggle(area, area_button){
+		  	if ($('#'+area)[0].style.display == '')
+		  	{
+		  		$('#'+area)[0].style.display = 'none';
+		  		$('#'+area_button).html('&#8628;')
+		  	}
+		  	else 
+		  	{	
+		  		$('#'+area)[0].style.display = '';
+		  		$('#'+area_button).html('&#8624;')
+		  	}
+		  };
+			function talks_toggle(area, area_button){
+		  	if ($('#'+area)[0].style.display == '')
+		  	{
+		  		$('#'+area)[0].style.display = 'none';
+		  		$('#'+area_button).html('Show more')
+		  	}
+		  	else 
+		  	{	
+		  		$('#'+area)[0].style.display = '';
+		  		$('#'+area_button).html('Show less')
+		  	}
+		  };
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-50570913-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script> 
+</head>
+
+<body>  
+	<center>  
+	<div class="content"> 
+		<nav class="navbar navbar-default name">
+		   <div class="container-fluid">
+			    <div class="glyphicon-grain navbar-header">
+
+			    	<h2 class="navbar-text" style="margin-left:0px;font-family: Copse;font-size:29px;color:#333;font-weight:"> <a  id="title"  href="index.html"> Nikolaos Pappas </a></h2>
+			      
+				    <ul class="nav navbar-nav navbar-right" style="padding-top:8px">
+			   		    <li><a href="cv.html">CV</a></li>
+					    <li><a href="research.html">Research</a></li>
+					    <li><a href="publications.html">Publications</a></li>
+					    <li><a href="contact.html">Contact</a></li>
+
+				    </ul> 
+			    </div>
+	 		 </div>
+		</nav>
+
+		<center class="page">
+			<table style="width:93%">
+			<tbody>
+			<tr>
+			<td scope="col" style="vertical-align:top;width:;text-align:left;padding-left:15px">
+			<table>
+			<tr><td style="width:78%">
+
+			<h3>Welcome</h3>
+						<p>I am a postdoctoral researcher at the <a href="https://www.cs.washington.edu/" target="_blank">Paul G. Allen School of Computer Science & Engineering</a> department of the <a href="https://www.washington.edu/" target="_blank">University of Washington</a> working with Professor <a href="https://homes.cs.washington.edu/~nasmith/" target="_blank">Noah Smith</a>. My current research on improving the sample and computational efficiency of language models is funded by SNSF. Previously, I did a postdoc with Doctor <a class="external-link" href="https://www.idiap.ch/~jhenderson/" target="_blank">James Henderson</a> at the <a href="https://idiap.ch" target="_blank">Idiap Research Institute</a>'s natural language understanding group and earned my doctoral degree at <a href='http://www.epfl.ch/' target='_blank'>  EPFL</a> with Professor <a class="external-link" href="http://iict-space.heig-vd.ch/apu/" target="_blank">Andrei Popescu-Belis</a>. I have also interned at <a href='https://www.columbia.edu/' target='_blank'>Columbia University</a> and received my master's and engineer's degrees from the <a href="http://www1.aegean.gr/aegean2/index.html" target="_blank">University of the Aegean</a>.  </p>
+		 
+			</td>
+			<td style="text-align:center;padding-top:40px">
+				<p><div class="portrait"><img alt="Portrait" style="width:140px;border-radius:50%;" class="img-circle image-inline" src="images/npappas-2.jpg"/><br/></div>
+			</p>
+
+			</td>
+			</tr>
+			</table>
+				
+			</center> 
+			
+
+			<h3  style="margin-top:5px">News &nbsp;<button style="font-size:14px;cursor:pointer" onclick="talks_toggle('more_news','more_news_button')"><span id="more_news_button">Show more</span></button></h3> 
+			<ul style="margin-top:-35px">
+ <center style="font-size:18px;margin-bottom:10px; margin-left:-40px;color: #c90202"><b> *** I am available on the job market *** </b></center>
+			<li style="display:"><c>Jan 2021</c> — Our paper on <a href="https://openreview.net/pdf?id=QtTKTdVrFBB" target="_blank">Random Feature Attention</a> got a spotlight at ICLR 2021! <span id="jan2021-button" style="cursor:pointer;" onclick="comment_toggle('jan2021','jan2021-button')">&#8628;</span> 
+<div id="jan2021" style="margin-left:90px;padding:5px;display:none">→ Congrats to Hao for leading the project!  </div>
+</li>	
+<li style="display:"><c>Jan 2021</c> — Two papers on <a href="https://openreview.net/pdf?id=KpfasTaLUpq" target="_blank">Deep-Shallow Models</a> and <a href="https://openreview.net/pdf?id=QtTKTdVrFBB" target="_blank">Random Feature Attention</a> accepted at ICLR 2021.<span id="jan2021b-button" style="cursor:pointer;" onclick="comment_toggle('jan2021b','jan2021b-button')">&#8628;</span> 
+<div id="jan2021b" style="margin-left:90px;padding:5px;display:none">→ Congrats to Jungo and Hao for leading each project respectively!  </div></li>	
+			<li style="display:"><c>Oct 2020</c> — Serving as review commitee member of ICLR 2021, IJCAI 2021 and NAACL-HLT 2021.</li>
+			<li style="display:"><c>Sep 2020</c> — Three papers on <a href="https://arxiv.org/pdf/2009.11523.pdf" target="_blank">Grounded LMs</a>, <a href="https://arxiv.org/pdf/2010.01263.pdf" target="_blank">Multilevel Text Alignment</a>, and <a href="https://arxiv.org/pdf/2010.02983.pdf"  target="_blank">PnP Autoencoders</a> accepted at EMNLP 2020.<span id="sep2020-button" style="cursor:pointer;" onclick="comment_toggle('sep2020','sep2020-button')">&#8628;</span> 
+<div id="sep2020" style="margin-left:90px;padding:5px;display:none">→ Congrats to Xuhui and Florian for leading two of the projects! </div></li>	
+			<li style="display:"><c>Sep 2020</c> — Ranked among the top-33% reviewers for my service at ICML 2020.</li>
+			<li style="display:"><c>Jul 2020</c> — Serving as review commitee member of EMNLP 2020, AACL 2020 and COLING 2020.</li>		     <li style="display:"><c>Jun 2020</c> —  Paper on  <a href="https://arxiv.org/pdf/2006.16236.pdf" target="_blank"> Fast Autoregressive Transformers with Linear Attention</a> to appear at ICML 2020. <span id="jul2020-button" style="cursor:pointer;" onclick="comment_toggle('jul2020','jul2020-button')">&#8628;</span> 
+<div id="jul2020" style="margin-left:90px;padding:5px;display:none">→ Congrats to Angelos for leading the project!</div></li> 
+			<div id="more_news" style="display:none"> 
+
+			<li style="display:"><c>Jun 2020</bc> — Preprints on speeding-up transformers with <a href="https://arxiv.org/pdf/2006.16236.pdf" target="_blank">Linear Attention</a> and <a href="https://arxiv.org/pdf/2006.10369.pdf" target="_blank">Deep-Shallow Models</a> are now available. </li>					
+			
+			<li style="display:"><c>Apr 2020</c> — Serving as review commitee member of ICML 2020, ACL 2020 and AAAI 2021.</li>		 
+<li style="display:"><c>Sep 2019</c> — Joined <a href="http://ark.cs.washington.edu/" target="_blank">Noah's ARK group</a> and the <a href="https://www.cs.washington.edu/research/nlp" target="_blank">NLP group</a> at the University of Washington. </li>
+<li style="display:"><c>May 2019</c> — Papers on <a href="https://arxiv.org/pdf/1806.06219.pdf" target="_blank">Generalized Zero-Shot Learning</a> and <a href="http://publications.idiap.ch/downloads/papers/2018/Pu_TACL_2018.pdf" target="_blank">Sense-Aware NMT</a> will be presented at ACL 2019.</li>	
+			<li style="display:"><c>Apr 2019</c> — Paper on <a href="http://publications.idiap.ch/downloads/papers/2019/Pappas_ICML_2019.pdf" target="_blank">Deep Residual Output Layers for Neural Language Generation </a> was accepted at ICML 2019.</li> 
+			<li style="display:"><c>Jan 2019</c> — Paper on <a href="https://arxiv.org/pdf/1806.06219.pdf" target="_blank">A Generalized Input-Label Embedding for Text Classification </a> to appear in TACL.</li> 
+			<li style="display:"><c>Dec 2018</c> — Won a two-year postdoc fellowship by <a href="http://www.snf.ch/" target="_blank">SNSF</a> to work with prof. <a href="https://homes.cs.washington.edu/~nasmith/" target="_blank">Noah Smith</a> at the University of Washington!</li> 
+			<li style="display:"><c>Oct 2018</c> — Paper on <a href="http://publications.idiap.ch/downloads/papers/2018/Pu_TACL_2018.pdf" target="_blank">Integrating Weakly Supervised Word Sense Disambiguation into Neural MT</a> to appear in TACL.<span id="oct2018-button" style="cursor:pointer;" onclick="comment_toggle('oct2018','oct2018-button')">&#8628;</span> 
+<div id="oct2018" style="margin-left:90px;padding:5px;display:none">→ Congrats to Xiao for leading the project!</div></li> 
+			<li style="display:"><c>Aug 2018</c> — Paper on <a href="http://publications.idiap.ch/downloads/papers/2018/Miculicich_EMNLP_2018.pdf" target="_blank">Document-Level Neural MT with Hierarchical Attention Networks </a> was accepted at EMNLP 2018.<span id="aug2018-button" style="cursor:pointer;" onclick="comment_toggle('aug2018','aug2018-button')">&#8628;</span> 
+<div id="aug2018" style="margin-left:90px;padding:5px;display:none">→ Congrats to Lesly for leading the project!</div></li> 
+			<li style="display:"><c>Aug 2018</c> — Paper on <a href="http://publications.idiap.ch/downloads/papers/2018/Pappas_WMT_2018.pdf" target="_blank">Joint Input-Output Embeddings for Neural MT</a> was accepted at WMT 2018.</li> 
+			<li style="display:"><c>Jun 2018</c> — Gave an invited talk on <a href="/slides/UnternehmerTUM18.pdf">Basics and (Modern) Methods for NLP</a> at the Digital School of UnternehmerTUM.</li> 	
+			<li style="display:"><c>Feb 2018</c> — Paper on <a href="http://publications.idiap.ch/downloads/papers/2018/MiculicichWerlen_NAACL_2018.pdf" target="_blank">Self-attentive Residual Decoder for Neural MT</a> was accepted at NAACL 2018.<span id="feb2018-button" style="cursor:pointer;" onclick="comment_toggle('feb2018','feb2018-button')">&#8628;</span> 
+<div id="feb2018" style="margin-left:90px;padding:5px;display:none">→ Congrats to Lesly for leading the project!</div></li>  
+			<li style="display:"><c>Nov 2017</c> — Won the best paper award at IJCNLP 2017!</li> 
+			<li style="display:"><c>Sep 2017</c> — Paper on <a href="http://publications.idiap.ch/downloads/reports/2017/Pappas_Idiap-RR-17-2017.pdf" target="_blank">Multilingual Hierarchical Attention Networks</a> was accepted at IJCNLP 2017.</li> 
+			<li style="display:"><c>Jun 2017</c> — Paper on <a href="http://publications.idiap.ch/downloads/papers/2017/Pu_SECONDCONFERENCEONMACHINETRANSLATION_2017.pdf" target="_blank">Sense-aware Statistical Machine Translation</a> was accepted at WMT 2017.<span id="jun2017-button" style="cursor:pointer;" onclick="comment_toggle('jun2017','jun2017-button')">&#8628;</span> 
+<div id="jun2017" style="margin-left:90px;padding:5px;display:none">→ Congrats to Xiao for leading the project!</div></li>  
+			<li style="display:"><c>Feb 2017</c> — Journal paper on <a href="http://publications.idiap.ch/downloads/papers/2017/Pappas_JAIR_2017.pdf" target="_blank">Explicit Document Modeling through Multiple-Instance Learning</a> was accepted at JAIR.</li>
+			<li style="display:"><c>Dec 2016</c> — Gave a lecture on <a href="slides/cours10-dl-for-nlp-multilingual-word-sequence-modeling.pdf" target="_blank">Multilingual Word Sequence Learning</a> for the <a href="http://edu.epfl.ch/coursebook/en/human-language-technology-applications-to-information-access-EE-724" target="_blank">HLT course</a> at EPFL.  </li>
+			<li style="display:"><c>Nov 2016</c> — Attended <a href="http://www.emnlp2016.net/" target="_blank">EMNLP 2016</a> conference in Austin, Texas. </li>
+			<li style="display:"><c>Oct 2016</c> — Gave a lecture on <a href="slides/cours4-dl-for-nlp-wordvectors.pdf" target="_blank">Word Representation Learning</a> for the <a href="http://edu.epfl.ch/coursebook/en/human-language-technology-applications-to-information-access-EE-724" target="_blank">HLT course</a> at EPFL.  </li>
+			</div>
+
+			</ul>
+
+			<center> 
+
+			<div>
+			</div>
+			</center>
+			 
+
+			 
+			<center>
+			<div style="margin-top:-2px">
+			<table class="logos"><tr>
+				<td  class="uw">
+					<span class="date">Present</date><br />
+				<a href="http://www.washington.edu" target="_blank"> 
+					<img style="width:44px" src="images/uw.png">
+				</a>
+				</td>
+				<td  class="idiap">
+					<span class="date">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2019</date><br />
+				<a href="http://www.idiap.ch" target="_blank"> 
+					<img style="width:160px" src="images/idiap.png">
+				</a>
+				</td>
+				<td>
+					<span class="date">2016</date><br />
+					<a href="http://www.epfl.ch" target="_blank"> 
+						<img style="width:100px;padding-top:6px" src="images/epfl.png" >
+					</a>
+				</td>
+				<td>
+					<span class="date">2014</date><br />
+					<a href="http://www.columbia.edu" target="_blank"> 
+						<img style="width:46px" src="images/columbia.png">
+					</a>
+				</td>
+				<td>
+					<span class="date">2011</date></br>
+					<a href="http://www1.aegean.gr/aegean2/index.html" target="_blank"> 
+						<img style="width:46px;padding-top:2px" src="images/aegean.gif">
+					</a> 
+					
+				</td>
+			</table>
+			</div>
+
+			<center>
+			<div style="margin-top:13px">
+			Contact me at: <a href="mailto:npappas@cs.washington.edu" target="_blank" style="border:0px solid black;">npappas@cs.washington.edu</a>
+			<br />
+			<a href="http://scholar.google.com/citations?user=daiFj_cAAAAJ&hl=en" target="_blank">
+			Scholar
+			</a>/
+			<a href="https://github.com/nik0spapp" target="_blank" >
+			Github
+			</a>/
+			<a href="https://twitter.com/nik0spapp" target="_blank" >
+				Twitter
+			</a>
+			</div>
+		
+			<div>
+				<a href="contact.html"><img id="map" alt="Location"  class="img-circle image-inline" src="images/map.png"/></a>
+			</div>
+			</center> 
+			  
+
+	 	</div> <!-- end page -->
+
+	</center>
+ 
+</body>
+</html>

@@ -1,0 +1,11 @@
+@inproceedings{pappas_17c,
+  author    = {Pappas, Nikolaos  and  Popescu-Belis, Andrei},
+  title     = {Multilingual Hierarchical Attention Networks for Document Classification},
+  booktitle = {Proceedings of the Eighth International Joint Conference on Natural Language Processing},
+  month     = {November},
+  year      = {2017},
+  address   = {Taipei, Taiwan},
+  publisher = {Asian Federation of Natural Language Processing},
+  pages     = {1015--1025},
+  url       = {http://www.aclweb.org/anthology/I17-1102}
+}

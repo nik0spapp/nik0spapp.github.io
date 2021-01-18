@@ -1,0 +1,13 @@
+@article{pappas16c,
+title = "Adaptive sentiment-aware one-class collaborative filtering ",
+journal = "Expert Systems with Applications ",
+volume = "43",
+number = "",
+pages = "23 - 41",
+year = "2016",
+note = "",
+issn = "0957-4174",
+doi = "http://dx.doi.org/10.1016/j.eswa.2015.08.035",
+url = "http://www.sciencedirect.com/science/article/pii/S0957417415005916",
+author = "Nikolaos Pappas and Andrei Popescu-Belis" 
+}

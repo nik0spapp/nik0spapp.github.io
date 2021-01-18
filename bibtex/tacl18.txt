@@ -1,0 +1,13 @@
+@ARTICLE{Pu_TACL_2018,
+author = {Pu, Xiao and Pappas, Nikolaos and Henderson, James and Popescu-Belis,
+Andrei},
+title = {Integrating Weakly Supervised Word Sense Disambiguation into Neural Machine
+Translation},
+journal = {Transactions of the Association for Computational Linguistics},
+volume = {6},
+number = {},
+pages = {635-649},
+year = {2018},
+doi = {10.1162/tacl\_a\_00242},
+URL = { https://doi.org/10.1162/tacl_a_0024}
+}

@@ -1,0 +1,16 @@
+@inproceedings{miculicich-werlen-etal-2018-self,
+    title = "Self-Attentive Residual Decoder for Neural Machine Translation",
+    author = "Miculicich Werlen, Lesly  and
+      Pappas, Nikolaos  and
+      Ram, Dhananjay  and
+      Popescu-Belis, Andrei",
+    booktitle = "Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long Papers)",
+    month = jun,
+    year = "2018",
+    address = "New Orleans, Louisiana",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/N18-1124",
+    doi = "10.18653/v1/N18-1124",
+    pages = "1366--1379",
+    abstract = "Neural sequence-to-sequence networks with attention have achieved remarkable performance for machine translation. One of the reasons for their effectiveness is their ability to capture relevant source-side contextual information at each time-step prediction through an attention mechanism. However, the target-side context is solely based on the sequence model which, in practice, is prone to a recency bias and lacks the ability to capture effectively non-sequential dependencies among words. To address this limitation, we propose a target-side-attentive residual recurrent network for decoding, where attention over previous words contributes directly to the prediction of the next word. The residual learning facilitates the flow of information from the distant past and is able to emphasize any of the previously translated words, hence it gains access to a wider context. The proposed model outperforms a neural MT baseline as well as a memory and self-attention network on three language pairs. The analysis of the attention learned by the decoder confirms that it emphasizes a wider context, and that it captures syntactic-like structures.",
+}

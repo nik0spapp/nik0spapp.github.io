@@ -1,0 +1,15 @@
+@Article{Pappas2017a,
+author="Pappas, Nikolaos
+and Redi, Miriam
+and Topkara, Mercan
+and Liu, Hongyi
+and Jou, Brendan
+and Chen, Tao
+and Chang, Shih-Fu",
+title="Multilingual visual sentiment concept clustering and analysis",
+journal="International Journal of Multimedia Information Retrieval",
+year="2017",
+pages="1--20",
+doi="10.1007/s13735-017-0120-4",
+url="http://dx.doi.org/10.1007/s13735-017-0120-4"
+}

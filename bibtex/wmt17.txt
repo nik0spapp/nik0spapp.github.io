@@ -1,0 +1,11 @@
+@InProceedings{pu17,
+  author    = {Pu, Xiao  and  Pappas, Nikolaos  and  Popescu-Belis, Andrei},
+  title     = {Sense-Aware Statistical Machine Translation using Adaptive Context-Dependent Clustering},
+  booktitle = {Proceedings of the Second Conference on Machine Translation, Volume 1: Research Papers},
+  month     = {September},
+  year      = {2017},
+  address   = {Copenhagen, Denmark},
+  publisher = {Association for Computational Linguistics},
+  pages     = {1--10},
+  url       = {http://www.aclweb.org/anthology/W17-4701}
+}

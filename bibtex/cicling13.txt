@@ -1,0 +1,16 @@
+@incollection{pappas13c,
+ location = {Samos, Greece},
+ year = {2013},
+ isbn = {978-3-642-37255-1},
+ booktitle = {Computational Linguistics and Intelligent Text Processing},
+ volume = {7817},
+ series = {Lecture Notes in Computer Science},
+ editor = {Gelbukh, Alexander},
+ doi = {10.1007/978-3-642-37256-8_17},
+ title = {Distinguishing the Popularity between Topics: A System for Up-to-Date Opinion Retrieval and Mining in the Web},
+ url = {http://dx.doi.org/10.1007/978-3-642-37256-8_17},
+ publisher = {Springer Berlin Heidelberg},
+ keywords = {Opinion Retrieval; Text Mining; Sentiment Analysis; Information Extraction; Utility-Based Agents},
+ author = {Pappas, Nikolaos and Katsimpras, Georgios and Stamatatos, Efstathios},
+ pages = {197-209}
+}

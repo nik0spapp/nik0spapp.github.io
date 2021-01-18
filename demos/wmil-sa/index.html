@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content=""> 
+
+    <title>MIR-based sentiment analysis</title>
+    
+    <link href="lib/bootstrap.css" rel="stylesheet">
+    <link href="lib/demo.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.9.0rc1.js"></script>
+    <script src="lib/bootstrap.js"></script> 
+    <script src="lib/demo.js"></script> 
+  </head>
+
+  <body>
+    <div class="container">
+      <div style="min-width:1100px;">
+      <center>
+        <div class="page-header">
+          <h1><b>MIR-based sentiment analysis</b></h1>
+          <p class="lead">Estimation of sentence relevance scores through weighted multiple-instance regression. </p>
+        </div>
+      </centeR>
+      <div class="alert alert-info">
+        <b>Note:</b> The user comments presented here are taken from ted.com for demo purposes. Each comment has been labeled in a 5-point scale using a crowdsourcing platform. 
+      </div>  
+      <br />
+      <img id="loading" class="row" src="loading.gif">
+      <div id="content" class="row" style="display:;height:500px;">
+
+
+        <div class="col-md-6">
+
+
+          <blockquote>
+          <p><span style="font-size:18px">“</span><span id="text"></span><span style="font-size:18px">”</span></p>
+          <small>anonymous user</small>
+          </blockquote>
+
+
+        </div>
+        <div class="col-md-6">
+          <div class="list-group">
+            <a href="#" class="list-group-item active" >
+              <h4 class="list-group-item-heading" id="rec">MIR-based sentiment analysis</h4>
+              <p class="list-group-item-text">Relevance score per sentence (comment <span id="cur"></span> out of <span id="len"></span>)</p>
+              <span id="current" class="inv"></span>
+
+            <div style="font-size:35px;margin-top:-50px;float:right">  <span id="predicted"></span> / <b id="actual"></b> </div>
+              <div style="font-size:9px;margin-top:-11px;margin-right:15px;float:right"> predicted&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; actual</b> </div>
+            </a>
+          </div>
+
+          <div class="list-group">
+              <a href="#" class="list-group-item opt">
+                 <span id="rec1">The link between unemployment and terrorism</span>
+                  <span id="rec1_id" class="inv"></span>
+                 <div class="progress"> 
+                 <div class="progress-bar progress-bar-warning" role="progressbar"   aria-valuemin="0" aria-valuemax="100" style="margin:0px;padding" id="rec1_progress">
+                    
+                  </div>&nbsp; <span id='rec1_percent'></span>%
+                  </div>
+              </a> 
+
+              <a href="#" class="list-group-item opt">
+                  <span id="rec2">The link between unemployment and terrorism</span>
+                  <span id="rec2_id" class="inv"></span>
+                 <div class="progress"> 
+                 <div class="progress-bar progress-bar-warning" role="progressbar"   aria-valuemin="0" aria-valuemax="100" style="margin:0px;padding" id="rec2_progress">
+                    
+                  </div>&nbsp; <span id='rec2_percent'></span>%
+                  </div>
+              </a> 
+                  <a href="#" class="list-group-item opt">
+                  <span id="rec3">The link between unemployment and terrorism</span>
+                  <span id="rec3_id" class="inv"></span>
+                  <div class="progress"> 
+                 <div class="progress-bar progress-bar-warning" role="progressbar"   aria-valuemin="0" aria-valuemax="100" style="margin:0px;padding" id="rec3_progress">
+                    
+                  </div>&nbsp; <span id='rec3_percent'></span>%
+              </div>
+
+              </a> 
+                  <a href="#" class="list-group-item opt">
+                  <span id="rec4">The link between unemployment and terrorism</span>
+                  <span id="rec4_id" class="inv"></span>
+                  <div class="progress"> 
+                 <div class="progress-bar progress-bar-warning" role="progressbar"   aria-valuemin="0" aria-valuemax="100" style="margin:0px;padding" id="rec4_progress">
+                    
+                  </div>&nbsp; <span id='rec4_percent'></span>%
+                  </div>
+              </a>  
+              <a href="#" class="list-group-item opt">
+                  <span id="rec5">The link between unemployment and terrorism</span>
+                  <span id="rec5_id" class="inv"></span>
+                  <div class="progress"> 
+                 <div class="progress-bar progress-bar-warning" role="progressbar"   aria-valuemin="0" aria-valuemax="100" style="margin:0px;padding" id="rec5_progress">
+                    
+                  </div>&nbsp; <span id='rec5_percent'></span>%
+                  </div>
+              </a> 
+              <a href="#" class="list-group-item opt">
+                  <span id="rec6">The link between unemployment and terrorism</span>
+                  <span id="rec6_id" class="inv"></span>
+                  <div class="progress"> 
+                 <div class="progress-bar progress-bar-warning" role="progressbar"   aria-valuemin="0" aria-valuemax="100" style="margin:0px;padding" id="rec6_progress">
+                    
+                  </div>&nbsp; <span id='rec6_percent'></span>%
+                  </div>
+              </a> 
+          </div> 
+          <center>
+          <div class="btn-group-container" style="display:"> 
+                <button id="show_words" class="btn btn-primary">Show words</button>
+                <div class="btn-group">
+                  <button id="prev" type="button" class="btn btn-default dropdown-toggle" style="background:#eee"data-toggle="dropdown">
+                    Previous
+                  </button> 
+                </div>
+
+                  <button id="next" type="button" class="btn btn-default dropdown-toggle" style="background:#eee" data-toggle="dropdown">
+                    Next
+                  </button> 
+                <button id="random" class="btn btn-info">Random</button>
+                <button id="how" class="btn btn-default" data-toggle="modal" data-target="#myModal" style="background:#eee;display:none">How it works</button>
+          </div>
+          </center>
+          <center id="footer" style="display:none">
+            InEvent, Natural Language Processing group, Idiap, 2014.
+          </center>
+        </div> 
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title" id="myModalLabel"><b>How it works</b></h4>
+            </div>
+            <div class="modal-body"> 
+            <p>Click on the title of your preference (on the right), to display the selected talk. Alternatively, you can click on the buttons below the top 5 recommendations to select similarity type (text-based, audio-based) or to display a random talk.</p>
+
+	    <p>Description of the recommendation methods can be found here:<br />
+		<a href="http://www.inevent-project.eu/demos/automatic-recommendation-of-lectures">http://www.inevent-project.eu/demos/automatic-recommendation-of-lectures</a>
+	    </p>  
+            </div>  
+              <button id="modal_button" type="button" class="btn btn-default" data-dismiss="modal">Close</button>  
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal --> 
+
+      <div id="words" class="row" style="margin-top:-80px;padding-bottom:50px;display:none">
+        <div class="col-md-6">
+          <h3>Positive words</h3>
+          <div id="positive"></div>
+        </div>
+        <div class="col-md-6">
+          <h3>Negative words</h3>
+          <div id="negative"></div>
+        </div>
+      </div>
+
+  </div>
+  </div>
+
+
+  </body>
+</html>

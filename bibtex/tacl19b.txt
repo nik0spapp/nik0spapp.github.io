@@ -1,0 +1,12 @@
+
+@article{pappas19b,
+    author = {Pappas, Nikolaos and Henderson, James},
+    title = {GILE: A Generalized Input-Label Embedding for Text Classification},
+    journal = {Transactions of the Association for Computational Linguistics},
+    volume = {7},
+    number = {},
+    pages = {139-155},
+    year = {2019},
+    doi = {10.1162/tacl\_a\_00259},
+    URL = {https://doi.org/10.1162/tacl_a_00259}, 
+  }

@@ -1,0 +1,9 @@
+@Article{Pappas2017b,
+author="Pappas, Nikolaos and Andrei Popescu-Belis",
+title="Explicit Document Modeling through Weighted Multiple-Instance Learning",
+journal="Journal of Artificial Intelligence Research",
+year="2017",
+pages="591--626",
+doi="doi:10.1613/jair.5240",
+url="http://dx.doi.org/10.1613/jair.5240"
+}

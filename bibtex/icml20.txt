@@ -1,0 +1,7 @@
+ @InProceedings{katharopoulos20,
+  title = 	 {Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention},
+  author = 	 {Katharopoulos, Angelos and Vyas, Apoorv and Pappas, Nikolaos and Fleuret, Francois},
+  booktitle = 	 {Proceedings of the 37th International Conference on Machine Learning},
+  url = 	 {https://arxiv.org/pdf/2006.16236.pdf},
+  year = 	 {2020},
+}

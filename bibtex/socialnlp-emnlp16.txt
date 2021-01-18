@@ -1,0 +1,11 @@
+@InProceedings{pappas16a,
+  author    = {Pappas, Nikolaos  and  Popescu-Belis, Andrei},
+  title     = {Human versus Machine Attention in Document Classification: A Dataset with Crowdsourced Annotations},
+  booktitle = {Proceedings of The Fourth International Workshop on Natural Language Processing for Social Media},
+  month     = {November},
+  year      = {2016},
+  address   = {Austin, TX, USA},
+  publisher = {Association for Computational Linguistics},
+  pages     = {94--100},
+  url       = {http://aclweb.org/anthology/W16-6213}
+}

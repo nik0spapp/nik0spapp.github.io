@@ -1,0 +1,13 @@
+@inproceedings{pappas18b,
+    title = "Beyond Weight Tying: Learning Joint Input-Output Embeddings for Neural Machine Translation",
+    author = "Pappas, Nikolaos  and
+      Miculicich, Lesly  and
+      Henderson, James",
+    booktitle = "Proceedings of the Third Conference on Machine Translation: Research Papers",
+    month = oct,
+    year = "2018",
+    address = "Belgium, Brussels",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/W18-6308",
+    pages = "73--83",
+}

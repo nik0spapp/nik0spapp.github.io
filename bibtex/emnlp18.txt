@@ -1,0 +1,16 @@
+@inproceedings{miculicich-etal-2018-document,
+    title = "Document-Level Neural Machine Translation with Hierarchical Attention Networks",
+    author = "Miculicich, Lesly  and
+      Ram, Dhananjay  and
+      Pappas, Nikolaos  and
+      Henderson, James",
+    booktitle = "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+    month = oct # "-" # nov,
+    year = "2018",
+    address = "Brussels, Belgium",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D18-1325",
+    doi = "10.18653/v1/D18-1325",
+    pages = "2947--2954",
+    abstract = "Neural Machine Translation (NMT) can be improved by including document-level contextual information. For this purpose, we propose a hierarchical attention model to capture the context in a structured and dynamic manner. The model is integrated in the original NMT architecture as another level of abstraction, conditioning on the NMT model{'}s own previous hidden states. Experiments show that hierarchical attention significantly improves the BLEU score over a strong NMT baseline with the state-of-the-art in context-aware methods, and that both the encoder and decoder benefit from context in complementary ways.",
+}

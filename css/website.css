@@ -1,0 +1,190 @@
+body {
+  font-size: 16px !important; 
+  font-family:;
+}
+ h1,h2,h3 {
+ 	font-weight:;
+ }
+ .img-circle {
+    border-radius: 0%;
+}
+.page{
+  margin-top:-20px;
+}
+
+.main a{ 
+    border-bottom:1px dotted #999;
+}
+
+.main a:hover{ 
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+}
+h3{
+  padding-top:0px;
+}
+li  {     
+    padding-bottom:3px;
+}
+h2,h3,h1 {
+	font-family: Copse;
+}
+a#title, a#title:hover,  a#title:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+.logos {
+  margin-top:  15px;
+}
+
+.logos td{
+  padding-right:20px;
+  text-align:center;
+  vertical-align: top;
+}
+.date{
+  color: #555;
+  font-weight: bold;
+  font-size:10px;
+}
+
+td  .uw {
+  padding-left:0px !important;
+  padding-right:6px !important;
+}
+td  .idiap {
+  padding-right:5px !important;
+}
+
+.pubs li {
+  padding-bottom:15px;
+}
+
+.pubs   {
+  margin-top:10px !important;
+}
+
+.name {
+  border-bottom:1px solid #ddd;
+  border-radius:0px;
+  border-left:0px;
+  border-right:0px;  
+  box-shadow: 10px 10px 5px #fff; 
+  cursor:pointer;
+
+}
+
+.content{
+  width:1024px;
+  margin-top:20px;
+  text-align:left;
+}
+
+table td {
+  vertical-align: top;
+}
+
+img#map {
+  width:32px;
+  cursor:pointer;
+}
+
+.datecv{
+  position:absolute;
+  margin-left:-200px;
+  margin-top:-20px;
+  font-size:12px;
+}
+
+
+.bs-callout {
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #eee;
+    border-left-width: 5px;
+    border-radius: 3px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code {
+    border-radius: 3px;
+}
+.bs-callout+.bs-callout {
+    margin-top: -5px;
+}
+.bs-callout-default {
+    border-left-color: #777;
+}
+.bs-callout-default h4 {
+    color: #777;
+}
+.bs-callout-primary {
+    border-left-color: #428bca;
+}
+.bs-callout-primary h4 {
+    color: #428bca;
+}
+.bs-callout-success {
+    border-left-color: #5cb85c;
+}
+.bs-callout-success h4 {
+    color: #5cb85c;
+}
+.bs-callout-danger {
+    border-left-color: #d9534f;
+}
+.bs-callout-danger h4 {
+    color: #d9534f;
+}
+.bs-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bs-callout-warning h4 {
+    color: #f0ad4e;
+}
+.bs-callout-info {
+    border-left-color: #5bc0de;
+}
+.bs-callout-info h4 {
+    color: #5bc0de;
+}
+
+/* Side notes for calling out things
+-------------------------------------------------- */
+
+/* Base styles (regardless of theme) */
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+.bs-callout h4 {
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff;
+}
+
+/* Themes for different contexts */
+.bs-callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4;
+}
+.bs-callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc;
+}
+.bs-callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
+}

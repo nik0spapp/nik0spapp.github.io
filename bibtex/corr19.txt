@@ -1,0 +1,19 @@
+@article{DBLP:journals/corr/abs-1906-01496,
+  author    = {Navid Rekabsaz and
+               Nikolaos Pappas and
+               James Henderson and
+               Banriskhem K. Khonglah and
+               Srikanth Madikeri},
+  title     = {Regularization Advantages of Multilingual Neural Language Models for
+               Low Resource Domains},
+  journal   = {CoRR},
+  volume    = {abs/1906.01496},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1906.01496},
+  archivePrefix = {arXiv},
+  eprint    = {1906.01496},
+  timestamp = {Mon, 18 Nov 2019 15:06:18 +0100},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1906-01496},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
