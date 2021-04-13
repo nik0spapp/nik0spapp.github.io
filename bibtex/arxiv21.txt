@@ -1,0 +1,8 @@
+@misc{kasai2021finetuning,
+      title={Finetuning Pretrained Transformers into RNNs}, 
+      author={Jungo Kasai and Hao Peng and Yizhe Zhang and Dani Yogatama and Gabriel Ilharco and Nikolaos Pappas and Yi Mao and Weizhu Chen and Noah A. Smith},
+      year={2021},
+      eprint={2103.13076},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
