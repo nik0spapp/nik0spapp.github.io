@@ -1,0 +1,8 @@
+@misc{montero2021sentence,
+      title={Sentence Bottleneck Autoencoders from Transformer Language Models}, 
+      author={Ivan Montero and Nikolaos Pappas and Noah A. Smith},
+      year={2021},
+      eprint={2109.00055},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}

@@ -4,10 +4,10 @@
 	<meta charset="utf-8">
 	<link rel="icon" href="images/language.png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<link rel="stylesheet" href="css/bootstrap.min.css"> 
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Copse" rel="stylesheet">
 	<link rel="stylesheet" href="css/website.css">
-	<script src="js/bootstrap.min.js" ></script> 
+	<script src="js/bootstrap.min.js" ></script>
 	<title>Nikolaos Pappas - Academic website</title>
 	<script>
 			function talks_toggle(area, area_button){
@@ -16,8 +16,8 @@
 		  		$('#'+area)[0].style.display = 'none';
 		  		$('#'+area_button).html('Show more')
 		  	}
-		  	else 
-		  	{	
+		  	else
+		  	{
 		  		$('#'+area)[0].style.display = '';
 		  		$('#'+area_button).html('Show less')
 		  	}
@@ -30,25 +30,23 @@
 	  ga('create', 'UA-50570913-1', 'auto');
 	  ga('send', 'pageview');
 
-	</script> 
+	</script>
 </head>
 
-<body> 
-	<center>  
-	<div class="content"> 
+<body>
+	<center>
+	<div class="content">
 		<nav class="navbar navbar-default name">
 		   <div class="container-fluid">
 			    <div class="glyphicon-grain navbar-header">
 
 			    	<h2 class="navbar-text" style="margin-left:0px;font-family: Copse;font-size:29px;color:#333;font-weight:"> <a  id="title"  href="index.html"> Nikolaos Pappas </a></h2>
-			      
+
 				    <ul class="nav navbar-nav navbar-right" style="padding-top:8px">
 			   		    <li><a href="cv.html">CV</a></li>
 					    <li><a href="research.html">Research</a></li>
 					    <li><a href="publications.html">Publications</a></li>
-  					    <li><a href="contact.html">Contact</a></li>
-					    <li style="display:none"><a href="resources.html">Code & Data</a></li>
-				    </ul> 
+				    </ul>
 			    </div>
 	 		 </div>
 		</nav>
@@ -56,157 +54,168 @@
 	 	 <div  style="width:;font-family:helvetica; width:90%;text-align:left">
 
 				<h3>Publications</h3>
-				 For the complete list of papers, see my <a href="http://scholar.google.ch/citations?user=daiFj_cAAAAJ&hl=en" target="_blank">Google scholar</a> profile. 
-				
+				 For the complete list of papers, see my <a href="http://scholar.google.ch/citations?user=daiFj_cAAAAJ&hl=en" target="_blank">Google scholar</a> profile.
+
 
 <h3 class="pubs" style="padding-top:10px">2021</h3>
-<ul class="pubs"> 
-<li>					
-					
-					<b> <img src="images/new.png" style="display:;width:21px;margin-bottom:0px"\> Finetuning Pretrained Transformers into RNNs</b>, Jungo Kasai, Hao Peng, Yizhe Zhang, Dani Yogatama, Gabriel Ilharco, Nikolaos Pappas, Yi Mao, Weizhu Chen, and Noah A. Smith. arXiv preprint (CoRR) <br /> 
-					<a class="label label-default" href="https://arxiv.org/pdf/2103.13076.pdf">PDF</a>
-					<a class="label label-primary" href="bibtex/arxiv21.txt">Bibtex</a> 
-					
-</li>
-<li>					
-					 <a title="Got a spotlight talk at ICLR 2021." target="_blank" style="border:0px; border-bottom:0px" href="https://iclr.cc/Conferences/2021/"><img src="images/award.png" style="width:20px;cursor:pointer"\></a>
-					<b> Random Feature Attention</b>, Hao Peng, Nikolaos Pappas, Dani Yogatama, Roy Schwartz, Noah A. Smith, Lingpeng Kong. In Proceedings of the International Conference on Learning Representations (ICLR). <br /> 
-					<a class="label label-default" href="https://openreview.net/pdf?id=QtTKTdVrFBB">PDF</a>
-					<a class="label label-primary" href="bibtex/iclr21a.txt">Bibtex</a> <a class="label label-info" href="https://github.com/Noahs-ARK/RFA">Code</a>
-<a class="label label-warning" href="slides/peng2021rfa.pdf">Slides</a>	
+<ul class="pubs">
+	<li>
 
-					
+						<b> <img src="images/new.png" style="display:;width:21px;margin-bottom:0px"\> Sentence Bottleneck Autoencoders from Pretrained Transformer Models</b>, Ivan Montero, Nikolaos Pappas, Noah A. Smith. In proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP). <br />
+						<a class="label label-default" href="https://arxiv.org/pdf/2109.00055.pdf">PDF</a>
+						<a class="label label-primary" href="bibtex/emnlp21a.txt">Bibtex</a>
+						<a class="label label-info" href="https://github.com/ivanmontero/autobot">Code by IM</a>
+
+
+	</li>
+<li>
+
+					<b> Finetuning Pretrained Transformers into RNNs</b>, Jungo Kasai, Hao Peng, Yizhe Zhang, Dani Yogatama, Gabriel Ilharco, Nikolaos Pappas, Yi Mao, Weizhu Chen, Noah A. Smith. In proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP).  <br />
+					<a class="label label-default" href="https://arxiv.org/pdf/2103.13076.pdf">PDF</a>
+					<a class="label label-primary" href="bibtex/emnlp21b.txt">Bibtex</a>
+					<a class="label label-info" href="https://github.com/jungokasai/T2R/">Code by JK</a>
+
+
 </li>
-<li>					 
-					<b> Deep Encoder, Shallow Decoder: Reevaluating Non-autoregressive Machine Translation</b>, Jungo Kasai, Nikolaos Pappas, Hao Peng, James Cross, Noah  Smith. In Proceedings of the International Conference on Learning Representations (ICLR). <br /> 
+<li>
+					 <a title="Got a spotlight talk at ICLR 2021." target="_blank" style="border:0px; border-bottom:0px" href="https://iclr.cc/Conferences/2021/"><img src="images/award.png" style="width:20px;cursor:pointer"\></a>
+					<b> Random Feature Attention</b>, Hao Peng, Nikolaos Pappas, Dani Yogatama, Roy Schwartz, Noah A. Smith, Lingpeng Kong. In Proceedings of the International Conference on Learning Representations (ICLR). <br />
+					<a class="label label-default" href="https://openreview.net/pdf?id=QtTKTdVrFBB">PDF</a>
+					<a class="label label-primary" href="bibtex/iclr21a.txt">Bibtex</a> <a class="label label-info" href="https://github.com/Noahs-ARK/RFA">Code by HP</a>
+<a class="label label-warning" href="slides/peng2021rfa.pdf">Slides</a>
+
+
+</li>
+<li>
+					<b> Deep Encoder, Shallow Decoder: Reevaluating Non-autoregressive Machine Translation</b>, Jungo Kasai, Nikolaos Pappas, Hao Peng, James Cross, Noah  Smith. In Proceedings of the International Conference on Learning Representations (ICLR). <br />
 					<a class="label label-default" href="https://openreview.net/pdf?id=KpfasTaLUpq">PDF</a>
-					<a class="label label-primary" href="bibtex/iclr21b.txt">Bibtex</a> 
-					<a class="label label-info" href="https://github.com/jungokasai/deep-shallow/">Code</a>
-					<a class="label label-warning" href="slides/kasai2021-deep-shallow.pdf">Slides</a>				
-</li>	
+					<a class="label label-primary" href="bibtex/iclr21b.txt">Bibtex</a>
+					<a class="label label-info" href="https://github.com/jungokasai/deep-shallow/">Code by JK</a>
+					<a class="label label-warning" href="slides/kasai2021-deep-shallow.pdf">Slides</a>
+</li>
 </li>
 
 </ul>
 <h3 class="pubs" style="padding-top:10px">2020</h3>
-<ul class="pubs"> 
-<li>					
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>   
-					<b>  Grounded Compositional Outputs for Adaptive Language Modeling</b>, Nikolaos Pappas, Phoebe Mulcaire, Noah A. Smith. In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). <br /> 
+<ul class="pubs">
+<li>
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>
+					<b>  Grounded Compositional Outputs for Adaptive Language Modeling</b>, Nikolaos Pappas, Phoebe Mulcaire, Noah A. Smith. In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). <br />
 					<a class="label label-default" href="https://arxiv.org/pdf/2009.11523.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/emnlp20a.txt">Bibtex</a>
 					<a class="label label-info" href="https://github.com/Noahs-ARK/groc">Code</a>
-					<a class="label label-warning" href="slides/emnlp20a.pdf">Slides</a>				
-</li>	
-<li>					
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>   
-					<b>  Multilevel Text Alignment with Cross-Document Attention</b>, Xuhui Zhou, Nikolaos Pappas, Noah A. Smith. In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). <br /> 
+					<a class="label label-warning" href="slides/emnlp20a.pdf">Slides</a>
+</li>
+<li>
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>
+					<b>  Multilevel Text Alignment with Cross-Document Attention</b>, Xuhui Zhou, Nikolaos Pappas, Noah A. Smith. In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). <br />
 					<a class="label label-default" href="https://arxiv.org/pdf/2010.01263.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/emnlp2020b.txt">Bibtex</a>
-					<a class="label label-info" href="https://github.com/XuhuiZhou/CDA">Code</a>
+					<a class="label label-info" href="https://github.com/XuhuiZhou/CDA">Code by XZ</a>
 					<a class="label label-warning" href="slides/emnlp20b.pdf">Slides</a>
 </li>
-<li>					
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>   
-					<b>  Plug and Play Autoencoders for Conditional Text Generation</b>, Florian Mai, Nikolaos Pappas, Ivan Montero, Noah A. Smith, James Henderson. In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). <br /> 
+<li>
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>
+					<b>  Plug and Play Autoencoders for Conditional Text Generation</b>, Florian Mai, Nikolaos Pappas, Ivan Montero, Noah A. Smith, James Henderson. In proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP). <br />
 					<a class="label label-default" href="https://arxiv.org/pdf/2010.02983.pdf">PDF</a>
-					<a class="label label-primary" href="bibtex/emnlp2020c.txt">Bibtex</a> 
-					<a class="label label-info" href="https://github.com/florianmai/emb2emb">Code</a>
+					<a class="label label-primary" href="bibtex/emnlp2020c.txt">Bibtex</a>
+					<a class="label label-info" href="https://github.com/florianmai/emb2emb">Code by FM</a>
 					<a class="label label-warning" href="slides/emnlp20c.pdf">Slides</a>
-					
+
 </li>
-					<li>					
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>   
+					<li>
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>
 					<b> Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention</b>, Angelos Katharopoulos, Apoorv Vyas, Nikolaos Pappas, Francois Fleuret. In Proceedings of the 37th International Conference on Machine Learning <br /> (ICML). <br />  		<a class="label label-default" href="https://arxiv.org/pdf/2006.16236.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/icml20.txt">Bibtex</a>
-					<a class="label label-info" href="https://linear-transformers.com" style="visibility:">Code</a>
+					<a class="label label-info" href="https://linear-transformers.com" style="visibility:">Code by AK/AV</a>
 					<a class="label label-warning" href="https://www.idiap.ch/~katharas/pdfs/linear-transformers-slides.pdf">Slides</a>
-					
+
 </li>
 
 </ul>
 
 <h3 class="pubs" style="padding-top:10px">2019</h3>
-				<ul class="pubs"> 
-					<li>					
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>   
-					<b> Deep Residual Output Layers for Neural Language Generation</b>, Nikolaos Pappas and James Henderson. In Proceedings of the 36th International Conference on Machine Learning (ICML). <br /> 
+				<ul class="pubs">
+					<li>
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>
+					<b> Deep Residual Output Layers for Neural Language Generation</b>, Nikolaos Pappas and James Henderson. In Proceedings of the 36th International Conference on Machine Learning (ICML). <br />
 					<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2019/Pappas_ICML_2019.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/icml19.txt">Bibtex</a>
 					<a class="label label-info" href="https://github.com/idiap/drill" style="visibility:">Code</a>
 					<a class="label label-warning" href="slides/icml19a.pdf">Slides</a>
 					<a class="label label-warning" href="slides/icml19b.pdf">Poster</a>
 					</li>
-					<li>					
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>   
-					<b> GILE: A Generalized Input-Label Embedding for Text Classification</b>, Nikolaos Pappas and James Henderson. In Transactions of the Association for Computational Linguistics (TACL). To be presented at ACL 2019. <br /> 
+					<li>
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>
+					<b> GILE: A Generalized Input-Label Embedding for Text Classification</b>, Nikolaos Pappas and James Henderson. In Transactions of the Association for Computational Linguistics (TACL). To be presented at ACL 2019. <br />
 					<a class="label label-default" href="https://arxiv.org/pdf/1806.06219.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/tacl19b.txt">Bibtex</a>
 					<a class="label label-info" href="https://github.com/idiap/gile" style="visibility:">Code</a>
 					<a class="label label-warning" href="slides/acl19.pdf">Poster</a>
  	  				 </li>
-			 	</ul>	
+			 	</ul>
 				<h3 class="pubs" style="padding-top:10px">2018</h3>
-				<ul class="pubs"> 
-					<li style="display:">				
-					<b> Integrating Weakly Supervised Word Disambiguation into Neural Machine Translation</b>, Xiao Pu, Nikolaos Pappas, James Henderson, Andrei Popescu-Belis. In Transactions of the Association for Computational Linguistics (TACL). To be presented at ACL 2019. <br /> 
+				<ul class="pubs">
+					<li style="display:">
+					<b> Integrating Weakly Supervised Word Disambiguation into Neural Machine Translation</b>, Xiao Pu, Nikolaos Pappas, James Henderson, Andrei Popescu-Belis. In Transactions of the Association for Computational Linguistics (TACL). To be presented at ACL 2019. <br />
 					<a class="label label-default" href="https://arxiv.org/pdf/1810.02614.pdf" style="display:">PDF</a>
 					<a class="label label-primary" href="bibtex/tacl18.txt" style="display:">Bibtex</a>
-					<a class="label label-info" href="https://github.com/idiap/sense_aware_NMT" style="visibility:">Code</a>
+					<a class="label label-info" href="https://github.com/idiap/sense_aware_NMT" style="visibility:">Code by XP</a>
 					<a class="label label-warning" href="slides/acl19b.pdf">Poster</a>
-					</li> 
-					<li>					
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px;display:"\>   
-					<b> Document-Level Neural Machine Translation with Hierarchical Attention Networks</b>, Lesly Miculicich Werlen, Dhananjay Ram, Nikolaos Pappas, James Henderson. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP). <br /> 
+					</li>
+					<li>
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px;display:"\>
+					<b> Document-Level Neural Machine Translation with Hierarchical Attention Networks</b>, Lesly Miculicich Werlen, Dhananjay Ram, Nikolaos Pappas, James Henderson. In Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP). <br />
 					<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2018/Miculicich_EMNLP_2018.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/emnlp18.txt">Bibtex</a>
-					<a class="label label-info" href="https://github.com/idiap/HAN_NMT">Code</a>
+					<a class="label label-info" href="https://github.com/idiap/HAN_NMT">Code by LM</a>
 					<a class="label label-warning" href="slides/emnlp18.pdf">Poster</a>
 					</li>
-					<li>					
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px;display:"\>   
-					<b> Beyond Weight Tying: Learning Joint Input-Output Embeddings for Neural Machine Translation</b>,  Nikolaos Pappas, Lesly Miculicich Werlen, James Henderson. In Proceedings of the 3rd Conference on Machine Translation (WMT). <br /> 
+					<li>
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px;display:"\>
+					<b> Beyond Weight Tying: Learning Joint Input-Output Embeddings for Neural Machine Translation</b>,  Nikolaos Pappas, Lesly Miculicich Werlen, James Henderson. In Proceedings of the 3rd Conference on Machine Translation (WMT). <br />
 					<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2018/Pappas_WMT_2018.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/wmt18.txt">Bibtex</a>
 					<a class="label label-info" href="https://github.com/idiap/joint-embedding-nmt">Code</a>
 					<a class="label label-warning" href="slides/wmt18.pdf">Slides</a>
 					</li>
-					
-					<li>					
-					<img src="images/new.png" style="display:;width:21px;margin-bottom:0px;display:none"\>   
-					<b> Self-attentive Residual Decoder for Neural Machine Translation</b>, Lesly Miculicich Werlen, Nikolaos Pappas, Dhananjay Ram, Andrei Popescu-Belis. In Proceedings of the 16th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies  (NAACL-HLT). <br /> 
+
+					<li>
+					<img src="images/new.png" style="display:;width:21px;margin-bottom:0px;display:none"\>
+					<b> Self-attentive Residual Decoder for Neural Machine Translation</b>, Lesly Miculicich Werlen, Nikolaos Pappas, Dhananjay Ram, Andrei Popescu-Belis. In Proceedings of the 16th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies  (NAACL-HLT). <br />
 					<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2018/MiculicichWerlen_NAACL_2018.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/naacl18.txt">Bibtex</a>
-					<a class="label label-info" href="https://github.com/idiap/Attentive_Residual_Connections_NMT">Code</a>
+					<a class="label label-info" href="https://github.com/idiap/Attentive_Residual_Connections_NMT">Code by LM</a>
 					<a class="label label-warning" href="slides/naacl18.pdf">Poster</a>
 					</li>
 			 	</ul>
 			 	<h3 class="pubs" style="padding-top:10px">2017</h3>
-				<ul class="pubs"> 
+				<ul class="pubs">
 					<li>
-					<a title="Won the best paper award at IJCNLP 2017." target="_blank" style="border:0px; border-bottom:0px" href="http://www.idiap.ch/en/allnews/nikolaos-pappas_and-andrei-popescu-belis_awarded-at-the-ijcnlp-2017"><img src="images/award.png" style="width:20px;cursor:pointer"\></a> 
-					<b> Multilingual Hierarchical Attention Networks for Document Classification</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Proceedings of the 8th International Joint Conference on Natural Language Processing (IJCNLP). <br /> 
+					<a title="Won the best paper award at IJCNLP 2017." target="_blank" style="border:0px; border-bottom:0px" href="http://www.idiap.ch/en/allnews/nikolaos-pappas_and-andrei-popescu-belis_awarded-at-the-ijcnlp-2017"><img src="images/award.png" style="width:20px;cursor:pointer"\></a>
+					<b> Multilingual Hierarchical Attention Networks for Document Classification</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Proceedings of the 8th International Joint Conference on Natural Language Processing (IJCNLP). <br />
 					<a class="label label-default" href="https://arxiv.org/pdf/1707.00896.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/ijcnlp17.txt">Bibtex</a>
 					<a class="label label-info" href="https://github.com/idiap/mhan">Code & data</a>
 					<a class="label label-warning" href="slides/ijcnlp17.pdf">Slides</a>
 					</li>
 					<li>
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>   
-					<b> Sense-Aware Statistical Machine Translation using Adaptive Context-Dependent Clustering</b>, Xiao Pu, Nikolaos Pappas, Andrei Popescu-Belis. In Proceedings of the 2nd Conference on Machine Translation (WMT).<br /> 
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>
+					<b> Sense-Aware Statistical Machine Translation using Adaptive Context-Dependent Clustering</b>, Xiao Pu, Nikolaos Pappas, Andrei Popescu-Belis. In Proceedings of the 2nd Conference on Machine Translation (WMT).<br />
 					<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2017/Pu_SECONDCONFERENCEONMACHINETRANSLATION_2017.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/wmt17.txt">Bibtex</a>
 					</li>
 					<li>
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>   
-					<b>Explicit Document Modeling through Weighted Multiple-Instance Learning</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Journal of Artificial Intelligence Research (JAIR).<br /> 
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>
+					<b>Explicit Document Modeling through Weighted Multiple-Instance Learning</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Journal of Artificial Intelligence Research (JAIR).<br />
 					<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2017/Pappas_JAIR_2017.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/jair17.txt">Bibtex</a>
 
 					<a class="label label-info" href="https://github.com/idiap/wmil-sgd">Code</a>
 					</li>
 					<li>
-					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>   
-					<b>Multilingual Visual Sentiment Concept Clustering and Analysis</b>, Nikolaos Pappas, Mercan Topkara, Miriam Redi, Hongyi Liu, Brendan Jou, Tao Chen, Shih-Fu Chang. In International Journal of Multimedia Information Retrieval (IJMIR).<br /> 
+					<img src="images/new.png" style="display:none;width:21px;margin-bottom:0px"\>
+					<b>Multilingual Visual Sentiment Concept Clustering and Analysis</b>, Nikolaos Pappas, Mercan Topkara, Miriam Redi, Hongyi Liu, Brendan Jou, Tao Chen, Shih-Fu Chang. In International Journal of Multimedia Information Retrieval (IJMIR).<br />
 					<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2017/Pappas_IJMIR_2017.pdf">PDF</a>
 					<a class="label label-primary" href="bibtex/ijmir17.txt">Bibtex</a>
 		 			</li>
@@ -215,94 +224,94 @@
 				<div  id="more_papers" style="display:">
 				<h3 class="pubs">2016</h3>
 				<ul class="pubs">
-					<li>  
-						<b>Human versus Machine Attention in Document Classification: A Dataset with Crowdsourced Annotations</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Proceedings of the International Workshop on Natural Language Processing for Social Media (SocialNLP@EMNLP).<br /> 
+					<li>
+						<b>Human versus Machine Attention in Document Classification: A Dataset with Crowdsourced Annotations</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Proceedings of the International Workshop on Natural Language Processing for Social Media (SocialNLP@EMNLP).<br />
 						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2016/Pappas_SocialNLP@EMNLP_2016.pdf">PDF</a>
 						<a class="label label-primary" href="bibtex/socialnlp-emnlp16.txt">Bibtex</a>
 						<a class="label label-info" href="http://www.idiap.ch/paper/hatdoc/">Code & Data</a>
 						<a class="label label-warning" href="slides/socialnlp-emnlp16.pdf">Slides</a>
 					</li>
-				 
-					<li>  
-						<a title="Won the best multimodal paper award at ICMR 2016." target="_blank" style="border:0px; border-bottom:0px" href="http://www.idiap.ch/en/allnews/nikolaos-pappas-best-paper-award-icmr-2016"><img src="images/award.png" style="width:20px;cursor:pointer"\></a> <b>Multilingual Visual Sentiment Concept Matching</b>, Nikolaos Pappas, Mercan Topkara, Miriam Redi, Brendan Jou, Tao Chen, Hongyi Liu, Shih-Fu Chang. In Proceedings of the ACM International Conference on Multimedia Retrieval (ICMR).<br /> 
+
+					<li>
+						<a title="Won the best multimodal paper award at ICMR 2016." target="_blank" style="border:0px; border-bottom:0px" href="http://www.idiap.ch/en/allnews/nikolaos-pappas-best-paper-award-icmr-2016"><img src="images/award.png" style="width:20px;cursor:pointer"\></a> <b>Multilingual Visual Sentiment Concept Matching</b>, Nikolaos Pappas, Mercan Topkara, Miriam Redi, Brendan Jou, Tao Chen, Hongyi Liu, Shih-Fu Chang. In Proceedings of the ACM International Conference on Multimedia Retrieval (ICMR).<br />
 						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2016/Pappas_ICMR_2016.pdf">PDF</a>
 						<a class="label label-primary" href="bibtex/icmr16.txt">Bibtex</a>
 						<a class="label label-warning" href="slides/icmr16.pdf">Slides</a>
 					</li>
-  					<li>  
-					  <a title="Won the 2015 best paper award by Idiap Research Institute." target="_blank" style="border:0px; border-bottom:0px" href="http://www.idiap.ch/scientific-research/awards"><img src="images/award.png" style="width:20px;cursor:pointer"\></a> <b>Adaptive Sentiment-Aware One-Class Collaborative Filtering</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Expert Systems with Applications (ESWA).<br /> 
+  					<li>
+					  <a title="Won the 2015 best paper award by Idiap Research Institute." target="_blank" style="border:0px; border-bottom:0px" href="http://www.idiap.ch/scientific-research/awards"><img src="images/award.png" style="width:20px;cursor:pointer"\></a> <b>Adaptive Sentiment-Aware One-Class Collaborative Filtering</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Expert Systems with Applications (ESWA).<br />
 						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2015/Pappas_ESWA_2015.pdf">PDF</a>
 						<a class="label label-primary" href="bibtex/eswa16.txt">Bibtex</a>
 
- 					</li>  
+ 					</li>
 				</ul>
 				<h3 class="pubs">2015</h3>
 				<ul class="pubs">
-					<li>  
-						<b>Visual Affect Around the World: A Large-scale Multilingual Visual Sentiment Ontology</b> Brendan Jou, Tao Chen, Nikolaos Pappas, Miriam Redi, Mercan Topkara, Shih-Fu Chang. In Proceedings of ACM International Conference on Multimedia (MM).<br /> 
+					<li>
+						<b>Visual Affect Around the World: A Large-scale Multilingual Visual Sentiment Ontology</b> Brendan Jou, Tao Chen, Nikolaos Pappas, Miriam Redi, Mercan Topkara, Shih-Fu Chang. In Proceedings of ACM International Conference on Multimedia (MM).<br />
 						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2015/Jou_MM_2015.pdf">PDF</a>
 						<a class="label label-primary" href="bibtex/mm15.txt">Bibtex</a>
 						<a class="label label-info" href="http://mvso.cs.columbia.edu/">Data</a>
-						<a class="label label-warning" href="slides/mm15.pdf"> Poster</a> 
+						<a class="label label-warning" href="slides/mm15.pdf"> Poster</a>
 
 					</li>
-  					<li>  
-						<b>Combining Content with User Preferences for Non-Fiction Multimedia Recommendation: A Study on TED Lectures</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Multimedia Tools and Applications (MTAP)<br /> 
+  					<li>
+						<b>Combining Content with User Preferences for Non-Fiction Multimedia Recommendation: A Study on TED Lectures</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Multimedia Tools and Applications (MTAP)<br />
 						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2014/Pappas_MTAP_2014.pdf">PDF</a>
 						<a class="label label-primary" href="bibtex/mtap15.txt">Bibtex</a>
-					</li>  
+					</li>
 				</ul>
 				<h3 class="pubs">2014</h3>
 				<ul class="pubs">
-					<li>  
-						<b>Explaining the Stars: Weighted Multiple-Instance Learning for Aspect-Based Sentiment Analysis</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP).<br /> 
-						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf">PDF</a> 
-						<a class="label label-primary" href="bibtex/emnlp14.txt">Bibtex</a> 
-						<a class="label label-info" href="https://github.com/nik0spapp/wmil">Code & Data</a> 
-						<a class="label label-warning" href="slides/emnlp14.pdf">Slides</a> 
+					<li>
+						<b>Explaining the Stars: Weighted Multiple-Instance Learning for Aspect-Based Sentiment Analysis</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP).<br />
+						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2014/Pappas_EMNLP14_2014.pdf">PDF</a>
+						<a class="label label-primary" href="bibtex/emnlp14.txt">Bibtex</a>
+						<a class="label label-info" href="https://github.com/nik0spapp/wmil">Code & Data</a>
+						<a class="label label-warning" href="slides/emnlp14.pdf">Slides</a>
 
 					</li>
- 					<li>  
-						<a title="Ranked 1st at MediaEval 2013 competition for the video hyperlinking task." target="_blank" style="border:0px; border-bottom:0px" href="http://www.idiap.ch/en/allnews/idiap-submission-to-mediaeval-2013-ranked-first-for-the-video-hyperlinking-task"><img src="images/award.png" style="width:20px;cursor:pointer"\></a><b>Multimodal Reranking of Content-based Recommendations for Hyperlinking Video Snippets</b>, Chidansh A. Bhatt, Nikolaos Pappas, Maryam Habibi, Andrei Popescu-Belis. In Proceedings of the ACM International Conference on Multimedia Retrieval (ICMR).<br /> 
+ 					<li>
+						<a title="Ranked 1st at MediaEval 2013 competition for the video hyperlinking task." target="_blank" style="border:0px; border-bottom:0px" href="http://www.idiap.ch/en/allnews/idiap-submission-to-mediaeval-2013-ranked-first-for-the-video-hyperlinking-task"><img src="images/award.png" style="width:20px;cursor:pointer"\></a><b>Multimodal Reranking of Content-based Recommendations for Hyperlinking Video Snippets</b>, Chidansh A. Bhatt, Nikolaos Pappas, Maryam Habibi, Andrei Popescu-Belis. In Proceedings of the ACM International Conference on Multimedia Retrieval (ICMR).<br />
 						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2014/ICMR.pdf">PDF</a>
 						<a class="label label-primary" href="bibtex/icmr14.txt">Bibtex</a>
 						<a class="label label-info" href="http://multimediaeval.org/mediaeval2013/hyper2013/">Data</a>
-					</li> 		 
-				</ul>	
+					</li>
+				</ul>
 				<h3 class="pubs">2013</h3>
 				<ul class="pubs">
-					<li>  
-						<b>Sentiment Analysis of User Comments for One-Class Collaborative Filtering over TED Talks</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Proceedings of the 36th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR).<br /> 
+					<li>
+						<b>Sentiment Analysis of User Comments for One-Class Collaborative Filtering over TED Talks</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Proceedings of the 36th ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR).<br />
 						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2013/Pappas_SIGIR_2013.pdf">PDF</a>
 						<a class="label label-primary" href="bibtex/sigir13.txt">Bibtex</a>
-						<a class="label label-warning" href="slides/sigir13.pdf"> Poster</a> 
+						<a class="label label-warning" href="slides/sigir13.pdf"> Poster</a>
 
 					</li>
- 					 
-  					<li>  
-						<b>Combining Content with User Preferences for TED Lecture Recommendation</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Proceedings of the 11th International Workshop on Content Based Multimedia Indexing (CBMI)<br /> 
+
+  					<li>
+						<b>Combining Content with User Preferences for TED Lecture Recommendation</b>, Nikolaos Pappas and Andrei Popescu-Belis. In Proceedings of the 11th International Workshop on Content Based Multimedia Indexing (CBMI)<br />
 						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2013/Pappas_CBMI_2013.pdf">PDF</a>
 						<a class="label label-primary" href="bibtex/cbmi13.txt">Bibtex</a>
-						<a class="label label-info" href="https://www.idiap.ch/dataset/ted/">Data</a> 
-						<a class="label label-warning" href="slides/cbmi13.pdf">Slides</a> 
+						<a class="label label-info" href="https://www.idiap.ch/dataset/ted/">Data</a>
+						<a class="label label-warning" href="slides/cbmi13.pdf">Slides</a>
 
 					</li>
-    
-					<li>  
-						<b>Distinguishing the Popularity Between Topics: A System for Up-to-date Opinion Retrieval and Mining in the Web</b>, Nikolaos Pappas, Georgios Katsimpras, Efstathios Stamatatos. In Proceedings of the 14th International Conference on Intelligent Text Processing and Computational Linguistics (CICLing).<br /> 
+
+					<li>
+						<b>Distinguishing the Popularity Between Topics: A System for Up-to-date Opinion Retrieval and Mining in the Web</b>, Nikolaos Pappas, Georgios Katsimpras, Efstathios Stamatatos. In Proceedings of the 14th International Conference on Intelligent Text Processing and Computational Linguistics (CICLing).<br />
 						<a class="label label-default" href="http://publications.idiap.ch/downloads/papers/2013/Pappas_CICLING_2013.pdf">PDF</a>
 						<a class="label label-primary" href="bibtex/cicling13.txt">Bibtex</a>
-						<a class="label label-info" href="https://github.com/nik0spapp/usent">Code</a> 						
-						<a class="label label-warning" href="slides/cicling13.pdf"> Slides</a> 
+						<a class="label label-info" href="https://github.com/nik0spapp/usent">Code</a>
+						<a class="label label-warning" href="slides/cicling13.pdf"> Slides</a>
 
-					</li> 
+					</li>
 				</div>
- 
-				</ul>	
+
+				</ul>
 
 				<center>
 				<div style="margin-top:0px">
-				Contact me at: <a href="mailto:npappas@cs.washington.edu" target="_blank" style="border:0px solid black;">npappas@cs.washington.edu</a>
+					Contact me at: <a href="mailto:nppappa@amazon.com" target="_blank" style="border:0px solid black;">nppappa@amazon.com</a>
 				<br />
 				<a href="http://scholar.google.com/citations?user=daiFj_cAAAAJ&hl=en" target="_blank">
 				Scholar
@@ -314,21 +323,21 @@
 					Twitter
 				</a>
 				</div>
-			
+
 				<div>
 					<a href="contact.html"><img id="map" alt="Location"  class="img-circle image-inline" src="images/map.png"/></a>
 				</div>
-				<br /> 
-				</center> 
+				<br />
+				</center>
 
 	 	</div>
 
 		</center>
- 
- 
+
+
  	</div>
 
 	</center>
- 
+
 </body>
 </html>
