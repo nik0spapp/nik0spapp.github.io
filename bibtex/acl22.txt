@@ -1,0 +1,20 @@
+@article{peng22,
+  author    = {Hao Peng and
+               Jungo Kasai and
+               Nikolaos Pappas and
+               Dani Yogatama and
+               Zhaofeng Wu and
+               Lingpeng Kong and
+               Roy Schwartz and
+               Noah A. Smith},
+  title     = {{ABC:} Attention with Bounded-memory Control},
+  journal   = {CoRR},
+  volume    = {abs/2110.02488},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2110.02488},
+  eprinttype = {arXiv},
+  eprint    = {2110.02488},
+  timestamp = {Fri, 08 Oct 2021 15:47:55 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2110-02488.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
