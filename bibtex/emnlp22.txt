@@ -1,0 +1,17 @@
+@misc{wu2022,
+  doi = {10.48550/ARXIV.2210.08431},
+  
+  url = {https://arxiv.org/abs/2210.08431},
+  
+  author = {Wu, Zhaofeng and Peng, Hao and Pappas, Nikolaos and Smith, Noah A.},
+  
+  keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {Modeling Context With Linear Attention for Scalable Document-Level Translation},
+  
+  publisher = {arXiv},
+  
+  year = {2022},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
