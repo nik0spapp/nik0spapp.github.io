@@ -1,0 +1,8 @@
+@misc{schumann2023backward,
+      title={Backward Compatibility During Data Updates by Weight Interpolation}, 
+      author={Raphael Schumann and Elman Mansimov and Yi-An Lai and Nikolaos Pappas and Xibin Gao and Yi Zhang},
+      year={2023},
+      eprint={2301.10546},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}

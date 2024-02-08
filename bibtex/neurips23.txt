@@ -1,0 +1,6 @@
+@article{zeng2023vcc,
+  title={Vcc: Scaling Transformers to 128K Tokens or More by Prioritizing Important Tokens},
+  author={Zeng, Zhanpeng and Hawkins, Cole and Hong, Mingyi and Zhang, Aston and Pappas, Nikolaos and Singh, Vikas and Zheng, Shuai},
+  journal={arXiv preprint arXiv:2305.04241},
+  year={2023}
+}

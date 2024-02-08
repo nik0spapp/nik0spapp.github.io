@@ -1,0 +1,22 @@
+@inproceedings{sung-etal-2023-pre,
+    title = "Pre-training Intent-Aware Encoders for Zero- and Few-Shot Intent Classification",
+    author = "Sung, Mujeen  and
+      Gung, James  and
+      Mansimov, Elman  and
+      Pappas, Nikolaos  and
+      Shu, Raphael  and
+      Romeo, Salvatore  and
+      Zhang, Yi  and
+      Castelli, Vittorio",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.646",
+    doi = "10.18653/v1/2023.emnlp-main.646",
+    pages = "10433--10442",
+}
